@@ -1,0 +1,45 @@
+﻿生成启动时间为 2018/11/6 11:03:19。
+     1>项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\lib\ann_1.1_char\ann_1.1_char.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Users\24400\Desktop\VS2013\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _WINDOWS /D _USRDLL /D DLL_EXPORTS /D ANN_PERF /D ANN_NO_RANDOM /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\ANN.cpp src\bd_fix_rad_search.cpp src\bd_pr_search.cpp src\bd_search.cpp src\bd_tree.cpp src\brute.cpp src\kd_dump.cpp src\kd_fix_rad_search.cpp src\kd_pr_search.cpp src\kd_search.cpp src\kd_split.cpp src\kd_tree.cpp src\kd_util.cpp src\perf.cpp
+         perf.cpp
+         kd_util.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\ann_1.1_char\src\kd_util.cpp(276): warning C4244: “=”: 从“double”转换到“ann_1_1_char::ANNcoord”，可能丢失数据
+         kd_tree.cpp
+         kd_split.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\ann_1.1_char\src\kd_split.cpp(289): warning C4244: “初始化”: 从“const double”转换到“ann_1_1_char::ANNcoord”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\ann_1.1_char\src\kd_split.cpp(395): warning C4244: “初始化”: 从“const double”转换到“ann_1_1_char::ANNcoord”，可能丢失数据
+         kd_search.cpp
+         kd_pr_search.cpp
+         kd_fix_rad_search.cpp
+         kd_dump.cpp
+         brute.cpp
+         bd_tree.cpp
+         bd_search.cpp
+         bd_pr_search.cpp
+         bd_fix_rad_search.cpp
+         ANN.cpp
+         正在生成代码...
+       Link:
+         C:\Users\24400\Desktop\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\ann_1.1_char.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\ann_1.1_char.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\ann_1.1_char.lib" /MACHINE:X86 /SAFESEH /DLL Debug\ANN.obj
+         Debug\bd_fix_rad_search.obj
+         Debug\bd_pr_search.obj
+         Debug\bd_search.obj
+         Debug\bd_tree.obj
+         Debug\brute.obj
+         Debug\kd_dump.obj
+         Debug\kd_fix_rad_search.obj
+         Debug\kd_pr_search.obj
+         Debug\kd_search.obj
+         Debug\kd_split.obj
+         Debug\kd_tree.obj
+         Debug\kd_util.obj
+         Debug\perf.obj
+     1>ANN.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+            正在创建库 D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\ann_1.1_char.lib 和对象 D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\ann_1.1_char.exp
+         ann_1.1_char.vcxproj -> D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\ann_1.1_char.dll
+     1>已完成生成项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\lib\ann_1.1_char\ann_1.1_char.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.84

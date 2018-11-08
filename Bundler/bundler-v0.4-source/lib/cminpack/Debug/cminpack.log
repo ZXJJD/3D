@@ -1,0 +1,61 @@
+﻿生成启动时间为 2018/11/6 16:45:40。
+     1>项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\lib\cminpack\cminpack.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Users\24400\Desktop\VS2013\VC\bin\CL.exe /c /I..\f2c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt chkder.c dogleg.c dpmpar.c enorm.c fdjac1.c fdjac2.c hybrd.c hybrd1.c hybrj.c hybrj1.c lmder.c lmder1.c lmdif.c lmdif1.c lmpar.c lmstr.c lmstr1.c qform.c qrfac.c qrsolv.c r1mpyq.c r1updt.c rwupdt.c
+         rwupdt.c
+         r1updt.c
+         r1mpyq.c
+         qrsolv.c
+         qrfac.c
+         qform.c
+         lmstr1.c
+         lmstr.c
+         lmpar.c
+         lmdif1.c
+         lmdif.c
+         lmder1.c
+         lmder.c
+         hybrj1.c
+         hybrj.c
+         hybrd1.c
+         hybrd.c
+         fdjac2.c
+         fdjac1.c
+         enorm.c
+         正在生成代码...
+         正在编译...
+         dpmpar.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\cminpack\dpmpar.c(187): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+         dogleg.c
+         chkder.c
+         正在生成代码...
+       Lib:
+         C:\Users\24400\Desktop\VS2013\VC\bin\Lib.exe /OUT:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\cminpack.lib" /NOLOGO Debug\chkder.obj
+         Debug\dogleg.obj
+         Debug\dpmpar.obj
+         Debug\enorm.obj
+         Debug\fdjac1.obj
+         Debug\fdjac2.obj
+         Debug\hybrd.obj
+         Debug\hybrd1.obj
+         Debug\hybrj.obj
+         Debug\hybrj1.obj
+         Debug\lmder.obj
+         Debug\lmder1.obj
+         Debug\lmdif.obj
+         Debug\lmdif1.obj
+         Debug\lmpar.obj
+         Debug\lmstr.obj
+         Debug\lmstr1.obj
+         Debug\qform.obj
+         Debug\qrfac.obj
+         Debug\qrsolv.obj
+         Debug\r1mpyq.obj
+         Debug\r1updt.obj
+         Debug\rwupdt.obj
+         cminpack.vcxproj -> D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\cminpack.lib
+     1>已完成生成项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\lib\cminpack\cminpack.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.60

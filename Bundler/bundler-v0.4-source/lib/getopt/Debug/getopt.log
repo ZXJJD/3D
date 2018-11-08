@@ -1,0 +1,15 @@
+﻿生成启动时间为 2018/11/6 11:03:19。
+     1>项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\lib\getopt\getopt.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Users\24400\Desktop\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt getopt.c
+         getopt.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\getopt\getopt.c(266): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdlib.h(462) : 参见“getenv”的声明
+       Lib:
+         C:\Users\24400\Desktop\VS2013\VC\bin\Lib.exe /OUT:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\getopt.lib" /NOLOGO Debug\getopt.obj
+         getopt.vcxproj -> D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\getopt.lib
+     1>已完成生成项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\lib\getopt\getopt.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.66

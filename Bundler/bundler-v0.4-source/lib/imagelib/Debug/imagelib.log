@@ -1,0 +1,104 @@
+﻿生成启动时间为 2018/11/6 16:45:33。
+     1>项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\lib\imagelib\imagelib.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Users\24400\Desktop\VS2013\VC\bin\CL.exe /c /I..\..\include /I..\matrix /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt affine.c binimage.c binvolume.c bmp.c canny.c color.c fileio.c filter.c fit.c fmatrix.c homography.c horn.c image.c lerp.c morphology.c pgm.c poly.c qsort.c resample.c tps.c transform.c triangle.c triangulate.c util.c vanish.c
+         vanish.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\vanish.c(394): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         util.c
+         triangulate.c
+         triangle.c
+         transform.c
+         tps.c
+         resample.c
+         qsort.c
+         poly.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\poly.c(153): warning C4101: “roots”: 未引用的局部变量
+         pgm.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\pgm.c(30): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\pgm.c(34): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\pgm.c(48): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\pgm.c(64): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\pgm.c(75): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\pgm.c(77): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\pgm.c(100): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\pgm.c(102): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\pgm.c(104): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+         morphology.c
+         lerp.c
+         image.c
+         horn.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\horn.c(34): warning C4005: “isnan”: 宏重定义
+                 c:\users\24400\desktop\vs2013\vc\include\math.h(289) : 参见“isnan”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\horn.c(753): warning C4101: “T”: 未引用的局部变量
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\horn.c(754): warning C4101: “i”: 未引用的局部变量
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\horn.c(753): warning C4101: “scale”: 未引用的局部变量
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\horn.c(753): warning C4101: “R”: 未引用的局部变量
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\horn.c(881): warning C4101: “T”: 未引用的局部变量
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\horn.c(882): warning C4101: “i”: 未引用的局部变量
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\horn.c(881): warning C4101: “scale”: 未引用的局部变量
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\horn.c(881): warning C4101: “R”: 未引用的局部变量
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\horn.c(984): warning C4101: “TbestT”: 未引用的局部变量
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\horn.c(1155): warning C4101: “i”: 未引用的局部变量
+         homography.c
+         fmatrix.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\fmatrix.c(39): warning C4005: “isnan”: 宏重定义
+                 c:\users\24400\desktop\vs2013\vc\include\math.h(289) : 参见“isnan”的前一个定义
+         fit.c
+         filter.c
+         fileio.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\fileio.c(28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         color.c
+         正在生成代码...
+         正在编译...
+         canny.c
+         bmp.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\bmp.c(72): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         binvolume.c
+         binimage.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\imagelib\binimage.c(256): warning C4018: “<”: 有符号/无符号不匹配
+         affine.c
+         正在生成代码...
+       Lib:
+         C:\Users\24400\Desktop\VS2013\VC\bin\Lib.exe /OUT:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\imagelib.lib" /NOLOGO Debug\affine.obj
+         Debug\binimage.obj
+         Debug\binvolume.obj
+         Debug\bmp.obj
+         Debug\canny.obj
+         Debug\color.obj
+         Debug\fileio.obj
+         Debug\filter.obj
+         Debug\fit.obj
+         Debug\fmatrix.obj
+         Debug\homography.obj
+         Debug\horn.obj
+         Debug\image.obj
+         Debug\lerp.obj
+         Debug\morphology.obj
+         Debug\pgm.obj
+         Debug\poly.obj
+         Debug\qsort.obj
+         Debug\resample.obj
+         Debug\tps.obj
+         Debug\transform.obj
+         Debug\triangle.obj
+         Debug\triangulate.obj
+         Debug\util.obj
+         Debug\vanish.obj
+         imagelib.vcxproj -> D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\imagelib.lib
+     1>已完成生成项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\lib\imagelib\imagelib.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:15.13

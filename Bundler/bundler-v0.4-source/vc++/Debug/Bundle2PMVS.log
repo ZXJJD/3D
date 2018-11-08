@@ -1,0 +1,77 @@
+﻿生成启动时间为 2018/11/6 16:45:56。
+     1>项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Bundle2PMVS.vcxproj”在节点 5 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Bundler.vcxproj, KeyMatchFull.vcxproj, RadialUndistort.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Users\24400\Desktop\VS2013\VC\bin\CL.exe /c /I..\include /I..\lib\imagelib /I..\lib\matrix /I"..\lib\sfm-driver" /I..\lib\jpeg\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\Bundle2PMVS.cpp ..\src\LoadJPEG.cpp
+         LoadJPEG.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\loadjpeg.cpp(37): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\loadjpeg.cpp(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\loadjpeg.cpp(122): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         Bundle2PMVS.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(29): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(49): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(61): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(66): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(69): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(73): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(76): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(90): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(92): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(97): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(99): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(119): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(123): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(126): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(130): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(134): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(155): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(157): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(183): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(184): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(228): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(229): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle2pmvs.cpp(275): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         正在生成代码...
+       Link:
+         C:\Users\24400\Desktop\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\Bundle2PMVS.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\Bundle2PMVS.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\Bundle2PMVS.lib" /MACHINE:X86 /SAFESEH Debug\Bundle2PMVS.obj
+         Debug\LoadJPEG.obj
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\cblas.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\clapack.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\cminpack.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\f2c.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\imagelib.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\matrix.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\jpeg.lib"
+     1>Bundle2PMVS.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         Bundle2PMVS.vcxproj -> D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\Bundle2PMVS.exe
+     1>已完成生成项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Bundle2PMVS.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.94

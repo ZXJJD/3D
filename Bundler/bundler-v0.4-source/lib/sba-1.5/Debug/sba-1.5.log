@@ -1,0 +1,23 @@
+﻿生成启动时间为 2018/11/6 11:03:18。
+     1>项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\lib\sba-1.5\sba-1.5.vcxproj”在节点 5 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Users\24400\Desktop\VS2013\VC\bin\CL.exe /c /I..\matrix /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt sba_chkjac.c sba_crsm.c sba_lapack.c sba_levmar.c sba_levmar_wrap.c
+         sba_levmar_wrap.c
+         sba_levmar.c
+         sba_lapack.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\sba-1.5\sba_lapack.c(1079): warning C4133: “函数”: 从“double *”到“int *”的类型不兼容
+         sba_crsm.c
+         sba_chkjac.c
+         正在生成代码...
+       Lib:
+         C:\Users\24400\Desktop\VS2013\VC\bin\Lib.exe /OUT:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\sba-1.5.lib" /NOLOGO Debug\sba_chkjac.obj
+         Debug\sba_crsm.obj
+         Debug\sba_lapack.obj
+         Debug\sba_levmar.obj
+         Debug\sba_levmar_wrap.obj
+         sba-1.5.vcxproj -> D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\sba-1.5.lib
+     1>已完成生成项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\lib\sba-1.5\sba-1.5.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.87

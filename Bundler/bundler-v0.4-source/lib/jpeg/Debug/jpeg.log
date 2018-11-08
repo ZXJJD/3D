@@ -1,0 +1,413 @@
+﻿生成启动时间为 2018/11/6 16:45:42。
+     1>项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\lib\jpeg\jpeg.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Users\24400\Desktop\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D JPEG_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\jcapimin.c src\jcapistd.c src\jccoefct.c src\jccolor.c src\jcdctmgr.c src\jchuff.c src\jcinit.c src\jcmainct.c src\jcmarker.c src\jcmaster.c src\jcomapi.c src\jcparam.c src\jcphuff.c src\jcprepct.c src\jcsample.c src\jctrans.c src\jdapimin.c src\jdapistd.c src\jdatadst.c src\jdatasrc.c src\jdcoefct.c src\jdcolor.c src\jddctmgr.c src\jdhuff.c src\jdinput.c src\jdmainct.c src\jdmarker.c src\jdmaster.c src\jdmerge.c src\jdphuff.c src\jdpostct.c src\jdsample.c src\jdtrans.c src\jerror.c src\jfdctflt.c src\jfdctfst.c src\jfdctint.c src\jidctflt.c src\jidctfst.c src\jidctint.c src\jidctred.c src\jmemmgr.c src\jmemnobs.c src\jquant1.c src\jquant2.c src\jutils.c
+         jutils.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jutils.c(75): warning C4273: “jdiv_round_up”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(371) : 参见“jdiv_round_up”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jutils.c(84): warning C4273: “jround_up”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(372) : 参见“jround_up”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jutils.c(119): warning C4273: “jcopy_sample_rows”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(373) : 参见“jcopy_sample_rows”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jutils.c(148): warning C4273: “jcopy_block_row”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(376) : 参见“jcopy_block_row”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jutils.c(168): warning C4273: “jzero_far”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(378) : 参见“jzero_far”的前一个定义
+         jquant2.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jquant2.c(1245): warning C4273: “jinit_2pass_quantizer”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(365) : 参见“jinit_2pass_quantizer”的前一个定义
+         jquant1.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jquant1.c(822): warning C4273: “jinit_1pass_quantizer”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(364) : 参见“jinit_1pass_quantizer”的前一个定义
+         jmemnobs.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemnobs.c(36): warning C4273: “jpeg_get_small”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemsys.h(47) : 参见“jpeg_get_small”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemnobs.c(42): warning C4273: “jpeg_free_small”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemsys.h(48) : 参见“jpeg_free_small”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemnobs.c(56): warning C4273: “jpeg_get_large”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemsys.h(60) : 参见“jpeg_get_large”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemnobs.c(62): warning C4273: “jpeg_free_large”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemsys.h(62) : 参见“jpeg_free_large”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemnobs.c(75): warning C4273: “jpeg_mem_available”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemsys.h(103) : 参见“jpeg_mem_available”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemnobs.c(89): warning C4273: “jpeg_open_backing_store”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemsys.h(180) : 参见“jpeg_open_backing_store”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemnobs.c(101): warning C4273: “jpeg_mem_init”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemsys.h(197) : 参见“jpeg_mem_init”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemnobs.c(107): warning C4273: “jpeg_mem_term”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemsys.h(198) : 参见“jpeg_mem_term”的前一个定义
+         jmemmgr.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemmgr.c(1029): warning C4273: “jinit_memory_mgr”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(368) : 参见“jinit_memory_mgr”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemmgr.c(1106): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdlib.h(462) : 参见“getenv”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jmemmgr.c(1109): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+         jidctred.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jidctred.c(121): warning C4273: “jpeg_idct_4x4”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdct.h(110) : 参见“jpeg_idct_4x4”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jidctred.c(274): warning C4273: “jpeg_idct_2x2”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdct.h(113) : 参见“jpeg_idct_2x2”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jidctred.c(382): warning C4273: “jpeg_idct_1x1”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdct.h(116) : 参见“jpeg_idct_1x1”的前一个定义
+         jidctint.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jidctint.c(151): warning C4273: “jpeg_idct_islow”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdct.h(101) : 参见“jpeg_idct_islow”的前一个定义
+         jidctfst.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jidctfst.c(171): warning C4273: “jpeg_idct_ifast”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdct.h(104) : 参见“jpeg_idct_ifast”的前一个定义
+         jidctflt.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jidctflt.c(71): warning C4273: “jpeg_idct_float”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdct.h(107) : 参见“jpeg_idct_float”的前一个定义
+         jfdctint.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jfdctint.c(141): warning C4273: “jpeg_fdct_islow”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdct.h(97) : 参见“jpeg_fdct_islow”的前一个定义
+         jfdctfst.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jfdctfst.c(115): warning C4273: “jpeg_fdct_ifast”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdct.h(98) : 参见“jpeg_fdct_ifast”的前一个定义
+         jfdctflt.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jfdctflt.c(60): warning C4273: “jpeg_fdct_float”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdct.h(99) : 参见“jpeg_fdct_float”的前一个定义
+         jerror.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jerror.c(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jerror.c(199): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jerror.c(232): warning C4273: “jpeg_std_error”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(891) : 参见“jpeg_std_error”的前一个定义
+         jdtrans.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdtrans.c(46): warning C4273: “jpeg_read_coefficients”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(1022) : 参见“jpeg_read_coefficients”的前一个定义
+         jdsample.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdsample.c(400): warning C4273: “jinit_upsampler”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(362) : 参见“jinit_upsampler”的前一个定义
+         jdpostct.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdpostct.c(251): warning C4273: “jinit_d_post_controller”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(355) : 参见“jinit_d_post_controller”的前一个定义
+         jdphuff.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdphuff.c(642): warning C4273: “jinit_phuff_decoder”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(360) : 参见“jinit_phuff_decoder”的前一个定义
+         jdmerge.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdmerge.c(371): warning C4273: “jinit_merged_upsampler”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(366) : 参见“jinit_merged_upsampler”的前一个定义
+         jdmaster.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdmaster.c(86): warning C4273: “jpeg_calc_output_dimensions”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(1009) : 参见“jpeg_calc_output_dimensions”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdmaster.c(516): warning C4273: “jpeg_new_colormap”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(999) : 参见“jpeg_new_colormap”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdmaster.c(544): warning C4273: “jinit_master_decompress”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(350) : 参见“jinit_master_decompress”的前一个定义
+         jdmarker.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdmarker.c(1193): warning C4273: “jpeg_resync_to_restart”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(1044) : 参见“jpeg_resync_to_restart”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdmarker.c(1263): warning C4273: “jinit_marker_reader”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(358) : 参见“jinit_marker_reader”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdmarker.c(1302): warning C4273: “jpeg_save_markers”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(1012) : 参见“jpeg_save_markers”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdmarker.c(1351): warning C4273: “jpeg_set_marker_processor”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(1017) : 参见“jpeg_set_marker_processor”的前一个定义
+         正在生成代码...
+         正在编译...
+         jdmainct.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdmainct.c(477): warning C4273: “jinit_d_main_controller”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(351) : 参见“jinit_d_main_controller”的前一个定义
+         jdinput.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdinput.c(362): warning C4273: “jinit_input_controller”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(357) : 参见“jinit_input_controller”的前一个定义
+         jdhuff.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdhuff.c(151): warning C4273: “jpeg_make_d_derived_tbl”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdhuff.h(49) : 参见“jpeg_make_d_derived_tbl”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdhuff.c(296): warning C4273: “jpeg_fill_bit_buffer”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdhuff.h(154) : 参见“jpeg_fill_bit_buffer”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdhuff.c(401): warning C4273: “jpeg_huff_decode”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdhuff.h(199) : 参见“jpeg_huff_decode”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdhuff.c(636): warning C4273: “jinit_huff_decoder”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(359) : 参见“jinit_huff_decoder”的前一个定义
+         jddctmgr.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jddctmgr.c(248): warning C4273: “jinit_inverse_dct”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(361) : 参见“jinit_inverse_dct”的前一个定义
+         jdcolor.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdcolor.c(305): warning C4273: “jinit_color_deconverter”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(363) : 参见“jinit_color_deconverter”的前一个定义
+         jdcoefct.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdcoefct.c(677): warning C4273: “jinit_d_coef_controller”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(353) : 参见“jinit_d_coef_controller”的前一个定义
+         jdatasrc.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdatasrc.c(183): warning C4273: “jpeg_stdio_src”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(918) : 参见“jpeg_stdio_src”的前一个定义
+         jdatadst.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdatadst.c(131): warning C4273: “jpeg_stdio_dest”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(917) : 参见“jpeg_stdio_dest”的前一个定义
+         jdapistd.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdapistd.c(39): warning C4273: “jpeg_start_decompress”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(982) : 参见“jpeg_start_decompress”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdapistd.c(154): warning C4273: “jpeg_read_scanlines”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(983) : 参见“jpeg_read_scanlines”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdapistd.c(187): warning C4273: “jpeg_read_raw_data”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(989) : 参见“jpeg_read_raw_data”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdapistd.c(229): warning C4273: “jpeg_start_output”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(995) : 参见“jpeg_start_output”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdapistd.c(254): warning C4273: “jpeg_finish_output”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(997) : 参见“jpeg_finish_output”的前一个定义
+         jdapimin.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdapimin.c(31): warning C4273: “jpeg_CreateDecompress”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(909) : 参见“jpeg_CreateDecompress”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdapimin.c(92): warning C4273: “jpeg_destroy_decompress”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(913) : 参见“jpeg_destroy_decompress”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdapimin.c(104): warning C4273: “jpeg_abort_decompress”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(1035) : 参见“jpeg_abort_decompress”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdapimin.c(242): warning C4273: “jpeg_read_header”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(969) : 参见“jpeg_read_header”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdapimin.c(288): warning C4273: “jpeg_consume_input”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(1000) : 参见“jpeg_consume_input”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdapimin.c(335): warning C4273: “jpeg_input_complete”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(998) : 参见“jpeg_input_complete”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdapimin.c(350): warning C4273: “jpeg_has_multiple_scans”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(994) : 参见“jpeg_has_multiple_scans”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jdapimin.c(370): warning C4273: “jpeg_finish_decompress”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(986) : 参见“jpeg_finish_decompress”的前一个定义
+         jctrans.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jctrans.c(39): warning C4273: “jpeg_write_coefficients”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(1023) : 参见“jpeg_write_coefficients”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jctrans.c(65): warning C4273: “jpeg_copy_critical_parameters”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(1025) : 参见“jpeg_copy_critical_parameters”的前一个定义
+         jcsample.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcsample.c(465): warning C4273: “jinit_downsampler”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(344) : 参见“jinit_downsampler”的前一个定义
+         jcprepct.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcprepct.c(316): warning C4273: “jinit_c_prep_controller”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(339) : 参见“jinit_c_prep_controller”的前一个定义
+         jcphuff.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcphuff.c(815): warning C4273: “jinit_phuff_encoder”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(347) : 参见“jinit_phuff_encoder”的前一个定义
+         jcparam.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcparam.c(31): warning C4273: “jpeg_add_quant_table”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(931) : 参见“jpeg_add_quant_table”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcparam.c(71): warning C4273: “jpeg_set_linear_quality”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(928) : 参见“jpeg_set_linear_quality”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcparam.c(111): warning C4273: “jpeg_quality_scaling”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(935) : 参见“jpeg_quality_scaling”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcparam.c(138): warning C4273: “jpeg_set_quality”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(926) : 参见“jpeg_set_quality”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcparam.c(269): warning C4273: “jpeg_set_defaults”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(921) : 参见“jpeg_set_defaults”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcparam.c(360): warning C4273: “jpeg_default_colorspace”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(925) : 参见“jpeg_default_colorspace”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcparam.c(392): warning C4273: “jpeg_set_colorspace”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(923) : 参见“jpeg_set_colorspace”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcparam.c(538): warning C4273: “jpeg_simple_progression”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(936) : 参见“jpeg_simple_progression”的前一个定义
+         jcomapi.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcomapi.c(30): warning C4273: “jpeg_abort”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(1040) : 参见“jpeg_abort”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcomapi.c(70): warning C4273: “jpeg_destroy”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(1041) : 参见“jpeg_destroy”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcomapi.c(87): warning C4273: “jpeg_alloc_quant_table”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(939) : 参见“jpeg_alloc_quant_table”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcomapi.c(99): warning C4273: “jpeg_alloc_huff_table”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(940) : 参见“jpeg_alloc_huff_table”的前一个定义
+         jcmaster.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcmaster.c(544): warning C4273: “jinit_c_master_control”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(335) : 参见“jinit_c_master_control”的前一个定义
+         jcmarker.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcmarker.c(646): warning C4273: “jinit_marker_writer”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(348) : 参见“jinit_marker_writer”的前一个定义
+         jcmainct.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcmainct.c(246): warning C4273: “jinit_c_main_controller”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(337) : 参见“jinit_c_main_controller”的前一个定义
+         jcinit.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcinit.c(31): warning C4273: “jinit_compress_master”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(334) : 参见“jinit_compress_master”的前一个定义
+         正在生成代码...
+         正在编译...
+         jchuff.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jchuff.c(181): warning C4273: “jpeg_make_c_derived_tbl”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jchuff.h(41) : 参见“jpeg_make_c_derived_tbl”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jchuff.c(706): warning C4273: “jpeg_gen_optimal_table”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jchuff.h(46) : 参见“jpeg_gen_optimal_table”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jchuff.c(892): warning C4273: “jinit_huff_encoder”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(346) : 参见“jinit_huff_encoder”的前一个定义
+         jcdctmgr.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcdctmgr.c(346): warning C4273: “jinit_forward_dct”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(345) : 参见“jinit_forward_dct”的前一个定义
+         jccolor.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jccolor.c(353): warning C4273: “jinit_color_converter”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(343) : 参见“jinit_color_converter”的前一个定义
+         jccoefct.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jccoefct.c(406): warning C4273: “jinit_c_coef_controller”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpegint.h(341) : 参见“jinit_c_coef_controller”的前一个定义
+         jcapistd.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcapistd.c(39): warning C4273: “jpeg_start_compress”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(943) : 参见“jpeg_start_compress”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcapistd.c(79): warning C4273: “jpeg_write_scanlines”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(945) : 参见“jpeg_write_scanlines”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcapistd.c(122): warning C4273: “jpeg_write_raw_data”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(951) : 参见“jpeg_write_raw_data”的前一个定义
+         jcapimin.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcapimin.c(31): warning C4273: “jpeg_CreateCompress”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(907) : 参见“jpeg_CreateCompress”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcapimin.c(89): warning C4273: “jpeg_destroy_compress”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(912) : 参见“jpeg_destroy_compress”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcapimin.c(101): warning C4273: “jpeg_abort_compress”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(1034) : 参见“jpeg_abort_compress”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcapimin.c(120): warning C4273: “jpeg_suppress_tables”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(937) : 参见“jpeg_suppress_tables”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcapimin.c(148): warning C4273: “jpeg_finish_compress”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(948) : 参见“jpeg_finish_compress”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcapimin.c(194): warning C4273: “jpeg_write_marker”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(956) : 参见“jpeg_write_marker”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcapimin.c(215): warning C4273: “jpeg_write_m_header”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(960) : 参见“jpeg_write_m_header”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcapimin.c(227): warning C4273: “jpeg_write_m_byte”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(962) : 参见“jpeg_write_m_byte”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jcapimin.c(255): warning C4273: “jpeg_write_tables”: dll 链接不一致
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\jpeg\src\jpeglib.h(966) : 参见“jpeg_write_tables”的前一个定义
+         正在生成代码...
+       Link:
+         C:\Users\24400\Desktop\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\jpeg.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\jpeg.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\jpeg.lib" /MACHINE:X86 /SAFESEH /DLL Debug\jcapimin.obj
+         Debug\jcapistd.obj
+         Debug\jccoefct.obj
+         Debug\jccolor.obj
+         Debug\jcdctmgr.obj
+         Debug\jchuff.obj
+         Debug\jcinit.obj
+         Debug\jcmainct.obj
+         Debug\jcmarker.obj
+         Debug\jcmaster.obj
+         Debug\jcomapi.obj
+         Debug\jcparam.obj
+         Debug\jcphuff.obj
+         Debug\jcprepct.obj
+         Debug\jcsample.obj
+         Debug\jctrans.obj
+         Debug\jdapimin.obj
+         Debug\jdapistd.obj
+         Debug\jdatadst.obj
+         Debug\jdatasrc.obj
+         Debug\jdcoefct.obj
+         Debug\jdcolor.obj
+         Debug\jddctmgr.obj
+         Debug\jdhuff.obj
+         Debug\jdinput.obj
+         Debug\jdmainct.obj
+         Debug\jdmarker.obj
+         Debug\jdmaster.obj
+         Debug\jdmerge.obj
+         Debug\jdphuff.obj
+         Debug\jdpostct.obj
+         Debug\jdsample.obj
+         Debug\jdtrans.obj
+         Debug\jerror.obj
+         Debug\jfdctflt.obj
+         Debug\jfdctfst.obj
+         Debug\jfdctint.obj
+         Debug\jidctflt.obj
+         Debug\jidctfst.obj
+         Debug\jidctint.obj
+         Debug\jidctred.obj
+         Debug\jmemmgr.obj
+         Debug\jmemnobs.obj
+         Debug\jquant1.obj
+         Debug\jquant2.obj
+         Debug\jutils.obj
+     1>jcapimin.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+            正在创建库 D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\jpeg.lib 和对象 D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\jpeg.exp
+     1>jcapimin.obj : warning LNK4217: 本地定义的符号 _jpeg_abort 在函数 _jpeg_abort_compress 中导入
+     1>jdapimin.obj : warning LNK4217: 本地定义的符号 _jpeg_abort 在函数 _jpeg_destroy_decompress 中导入
+     1>jcapimin.obj : warning LNK4217: 本地定义的符号 _jpeg_destroy 在函数 _jpeg_destroy_compress 中导入
+     1>jdapimin.obj : warning LNK4217: 本地定义的符号 _jpeg_destroy 在函数 _jpeg_CreateDecompress 中导入
+     1>jerror.obj : warning LNK4049: 已导入本地定义的符号 _jpeg_destroy
+     1>jcapimin.obj : warning LNK4217: 本地定义的符号 _jinit_marker_writer 在函数 _jpeg_write_tables 中导入
+     1>jcinit.obj : warning LNK4049: 已导入本地定义的符号 _jinit_marker_writer
+     1>jctrans.obj : warning LNK4217: 本地定义的符号 _jinit_marker_writer 在函数 _compress_output 中导入
+     1>jcapimin.obj : warning LNK4217: 本地定义的符号 _jinit_memory_mgr 在函数 _jpeg_CreateCompress 中导入
+     1>jdapimin.obj : warning LNK4217: 本地定义的符号 _jinit_memory_mgr 在函数 _jpeg_CreateDecompress 中导入
+     1>jcapistd.obj : warning LNK4217: 本地定义的符号 _jpeg_suppress_tables 在函数 _jpeg_start_compress 中导入
+     1>jctrans.obj : warning LNK4049: 已导入本地定义的符号 _jpeg_suppress_tables
+     1>jcapistd.obj : warning LNK4217: 本地定义的符号 _jinit_compress_master 在函数 _jpeg_start_compress 中导入
+     1>jccoefct.obj : warning LNK4217: 本地定义的符号 _jround_up 在函数 _jinit_c_coef_controller 中导入
+     1>jdcoefct.obj : warning LNK4049: 已导入本地定义的符号 _jround_up
+     1>jdpostct.obj : warning LNK4217: 本地定义的符号 _jround_up 在函数 _jinit_d_post_controller 中导入
+     1>jdsample.obj : warning LNK4049: 已导入本地定义的符号 _jround_up
+     1>jquant1.obj : warning LNK4049: 已导入本地定义的符号 _jzero_far
+     1>jquant2.obj : warning LNK4049: 已导入本地定义的符号 _jzero_far
+     1>jccoefct.obj : warning LNK4217: 本地定义的符号 _jzero_far 在函数 _compress_data 中导入
+     1>jctrans.obj : warning LNK4049: 已导入本地定义的符号 _jzero_far
+     1>jdcoefct.obj : warning LNK4049: 已导入本地定义的符号 _jzero_far
+     1>jmemmgr.obj : warning LNK4049: 已导入本地定义的符号 _jzero_far
+     1>jcdctmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_fdct_islow 在函数 _jinit_forward_dct 中导入
+     1>jcdctmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_fdct_ifast 在函数 _jinit_forward_dct 中导入
+     1>jcdctmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_fdct_float 在函数 _jinit_forward_dct 中导入
+     1>jchuff.obj : warning LNK4217: 本地定义的符号 _jpeg_alloc_huff_table 在函数 _finish_pass_gather 中导入
+     1>jcparam.obj : warning LNK4049: 已导入本地定义的符号 _jpeg_alloc_huff_table
+     1>jcphuff.obj : warning LNK4049: 已导入本地定义的符号 _jpeg_alloc_huff_table
+     1>jdmarker.obj : warning LNK4049: 已导入本地定义的符号 _jpeg_alloc_huff_table
+     1>jcinit.obj : warning LNK4217: 本地定义的符号 _jinit_c_master_control 在函数 _jinit_compress_master 中导入
+     1>jctrans.obj : warning LNK4049: 已导入本地定义的符号 _jinit_c_master_control
+     1>jcinit.obj : warning LNK4217: 本地定义的符号 _jinit_c_main_controller 在函数 _jinit_compress_master 中导入
+     1>jcinit.obj : warning LNK4217: 本地定义的符号 _jinit_c_prep_controller 在函数 _jinit_compress_master 中导入
+     1>jcinit.obj : warning LNK4217: 本地定义的符号 _jinit_c_coef_controller 在函数 _jinit_compress_master 中导入
+     1>jcinit.obj : warning LNK4217: 本地定义的符号 _jinit_color_converter 在函数 _jinit_compress_master 中导入
+     1>jcinit.obj : warning LNK4217: 本地定义的符号 _jinit_downsampler 在函数 _jinit_compress_master 中导入
+     1>jcinit.obj : warning LNK4217: 本地定义的符号 _jinit_forward_dct 在函数 _jinit_compress_master 中导入
+     1>jcinit.obj : warning LNK4217: 本地定义的符号 _jinit_huff_encoder 在函数 _jinit_compress_master 中导入
+     1>jctrans.obj : warning LNK4049: 已导入本地定义的符号 _jinit_huff_encoder
+     1>jcinit.obj : warning LNK4217: 本地定义的符号 _jinit_phuff_encoder 在函数 _jinit_compress_master 中导入
+     1>jctrans.obj : warning LNK4049: 已导入本地定义的符号 _jinit_phuff_encoder
+     1>jcmaster.obj : warning LNK4217: 本地定义的符号 _jdiv_round_up 在函数 _initial_setup 中导入
+     1>jdinput.obj : warning LNK4217: 本地定义的符号 _jdiv_round_up 在函数 _initial_setup 中导入
+     1>jdmaster.obj : warning LNK4049: 已导入本地定义的符号 _jdiv_round_up
+     1>jcparam.obj : warning LNK4217: 本地定义的符号 _jpeg_alloc_quant_table 在函数 _jpeg_add_quant_table 中导入
+     1>jctrans.obj : warning LNK4049: 已导入本地定义的符号 _jpeg_alloc_quant_table
+     1>jdmarker.obj : warning LNK4049: 已导入本地定义的符号 _jpeg_alloc_quant_table
+     1>jcphuff.obj : warning LNK4217: 本地定义的符号 _jpeg_make_c_derived_tbl 在函数 _start_pass_phuff 中导入
+     1>jcphuff.obj : warning LNK4217: 本地定义的符号 _jpeg_gen_optimal_table 在函数 _finish_pass_gather_phuff 中导入
+     1>jdsample.obj : warning LNK4049: 已导入本地定义的符号 _jcopy_sample_rows
+     1>jcprepct.obj : warning LNK4217: 本地定义的符号 _jcopy_sample_rows 在函数 _expand_bottom_edge 中导入
+     1>jcsample.obj : warning LNK4049: 已导入本地定义的符号 _jcopy_sample_rows
+     1>jdcolor.obj : warning LNK4049: 已导入本地定义的符号 _jcopy_sample_rows
+     1>jdmerge.obj : warning LNK4049: 已导入本地定义的符号 _jcopy_sample_rows
+     1>jctrans.obj : warning LNK4217: 本地定义的符号 _jpeg_set_defaults 在函数 _jpeg_copy_critical_parameters 中导入
+     1>jctrans.obj : warning LNK4217: 本地定义的符号 _jpeg_set_colorspace 在函数 _jpeg_copy_critical_parameters 中导入
+     1>jdapimin.obj : warning LNK4217: 本地定义的符号 _jinit_input_controller 在函数 _jpeg_CreateDecompress 中导入
+     1>jdapimin.obj : warning LNK4217: 本地定义的符号 _jinit_marker_reader 在函数 _jpeg_CreateDecompress 中导入
+     1>jdapistd.obj : warning LNK4217: 本地定义的符号 _jinit_master_decompress 在函数 _jpeg_start_decompress 中导入
+     1>jdatasrc.obj : warning LNK4217: 本地定义的符号 _jpeg_resync_to_restart 在函数 _jpeg_stdio_src 中导入
+     1>jdcoefct.obj : warning LNK4217: 本地定义的符号 _jcopy_block_row 在函数 _decompress_smooth_data 中导入
+     1>jddctmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_idct_islow 在函数 _start_pass 中导入
+     1>jddctmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_idct_ifast 在函数 _start_pass 中导入
+     1>jddctmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_idct_float 在函数 _start_pass 中导入
+     1>jddctmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_idct_4x4 在函数 _start_pass 中导入
+     1>jddctmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_idct_2x2 在函数 _start_pass 中导入
+     1>jddctmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_idct_1x1 在函数 _start_pass 中导入
+     1>jdmaster.obj : warning LNK4217: 本地定义的符号 _jinit_d_main_controller 在函数 _master_selection 中导入
+     1>jdmaster.obj : warning LNK4217: 本地定义的符号 _jinit_d_coef_controller 在函数 _master_selection 中导入
+     1>jdtrans.obj : warning LNK4049: 已导入本地定义的符号 _jinit_d_coef_controller
+     1>jdmaster.obj : warning LNK4217: 本地定义的符号 _jinit_d_post_controller 在函数 _master_selection 中导入
+     1>jdmaster.obj : warning LNK4217: 本地定义的符号 _jinit_huff_decoder 在函数 _master_selection 中导入
+     1>jdtrans.obj : warning LNK4049: 已导入本地定义的符号 _jinit_huff_decoder
+     1>jdmaster.obj : warning LNK4217: 本地定义的符号 _jinit_phuff_decoder 在函数 _master_selection 中导入
+     1>jdtrans.obj : warning LNK4049: 已导入本地定义的符号 _jinit_phuff_decoder
+     1>jdmaster.obj : warning LNK4217: 本地定义的符号 _jinit_inverse_dct 在函数 _master_selection 中导入
+     1>jdmaster.obj : warning LNK4217: 本地定义的符号 _jinit_upsampler 在函数 _master_selection 中导入
+     1>jdmaster.obj : warning LNK4217: 本地定义的符号 _jinit_color_deconverter 在函数 _master_selection 中导入
+     1>jdmaster.obj : warning LNK4217: 本地定义的符号 _jinit_1pass_quantizer 在函数 _master_selection 中导入
+     1>jdmaster.obj : warning LNK4217: 本地定义的符号 _jinit_2pass_quantizer 在函数 _master_selection 中导入
+     1>jdmaster.obj : warning LNK4217: 本地定义的符号 _jinit_merged_upsampler 在函数 _master_selection 中导入
+     1>jdphuff.obj : warning LNK4217: 本地定义的符号 _jpeg_make_d_derived_tbl 在函数 _start_pass_phuff_decoder 中导入
+     1>jdphuff.obj : warning LNK4217: 本地定义的符号 _jpeg_fill_bit_buffer 在函数 _decode_mcu_AC_first 中导入
+     1>jdphuff.obj : warning LNK4217: 本地定义的符号 _jpeg_huff_decode 在函数 _decode_mcu_AC_first 中导入
+     1>jmemmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_get_small 在函数 _alloc_small 中导入
+     1>jmemmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_free_small 在函数 _free_pool 中导入
+     1>jmemmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_get_large 在函数 _alloc_large 中导入
+     1>jmemmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_free_large 在函数 _free_pool 中导入
+     1>jmemmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_mem_available 在函数 _realize_virt_arrays 中导入
+     1>jmemmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_open_backing_store 在函数 _realize_virt_arrays 中导入
+     1>jmemmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_mem_init 在函数 _jinit_memory_mgr 中导入
+     1>jmemmgr.obj : warning LNK4217: 本地定义的符号 _jpeg_mem_term 在函数 _jinit_memory_mgr 中导入
+         jpeg.vcxproj -> D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\jpeg.dll
+     1>已完成生成项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\lib\jpeg\jpeg.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.52

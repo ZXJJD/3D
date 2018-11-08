@@ -1,0 +1,661 @@
+﻿生成启动时间为 2018/11/6 11:03:35。
+     1>项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Bundler.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Bundle2PMVS.vcxproj, KeyMatchFull.vcxproj, RadialUndistort.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Users\24400\Desktop\VS2013\VC\bin\CL.exe /c /I..\include /I..\lib\matrix /I..\lib\imagelib /I"..\lib\sfm-driver" /I..\lib\zlib\include /I..\lib\ann_1.1_char\include /I..\lib\getopt /I..\lib\5point /I..\lib\jpeg\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D __BUNDLER__ /D __BUNDLER_DISTR__ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\BaseApp.cpp ..\src\BaseGeometry.cpp ..\src\BoundingBox.cpp ..\src\BruteForceSearch.cpp ..\src\Bundle.cpp ..\src\BundleAdd.cpp ..\src\BundleFast.cpp ..\src\BundleIO.cpp ..\src\BundlerApp.cpp ..\src\BundlerGeometry.cpp ..\src\BundleTwo.cpp ..\src\Camera.cpp ..\src\ComputeTracks.cpp ..\src\Decompose.cpp ..\src\Distortion.cpp ..\src\Epipolar.cpp ..\src\Geometry.cpp ..\src\ImageData.cpp ..\src\keys.cpp ..\src\LoadJPEG.cpp ..\src\MatchTracks.cpp ..\src\ProcessBundle.cpp ..\src\Register.cpp ..\src\RelativePose.cpp ..\src\SifterUtil.cpp ..\src\TwoFrameModel.cpp
+         TwoFrameModel.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\twoframemodel.cpp(35): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\twoframemodel.cpp(43): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\twoframemodel.cpp(69): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\twoframemodel.cpp(71): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\twoframemodel.cpp(72): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\twoframemodel.cpp(87): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\twoframemodel.cpp(377): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\twoframemodel.cpp(385): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\twoframemodel.cpp(425): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\twoframemodel.cpp(435): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\twoframemodel.cpp(465): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\twoframemodel.cpp(503): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\twoframemodel.cpp(535): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\twoframemodel.cpp(587): warning C4018: “<”: 有符号/无符号不匹配
+         SifterUtil.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\sifterutil.cpp(302): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         RelativePose.cpp
+         Register.cpp
+         ProcessBundle.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(43): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(64): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(65): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(147): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(157): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(165): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(166): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(256): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(257): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(341): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(343): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(378): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(379): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(563): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(586): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(678): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\processbundle.cpp(701): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         MatchTracks.cpp
+         LoadJPEG.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\loadjpeg.cpp(37): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\loadjpeg.cpp(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\loadjpeg.cpp(122): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         keys.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(47): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(67): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(111): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(115): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(120): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(121): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(125): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(160): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(164): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(169): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(170): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(174): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(232): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(236): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(241): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(242): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(246): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(421): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(441): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(447): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(473): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(502): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(537): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(540): warning C4244: “=”: 从“short”转换到“unsigned char”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(546): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(549): warning C4244: “=”: 从“short”转换到“unsigned char”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(569): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(600): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(633): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(636): warning C4244: “=”: 从“short”转换到“unsigned char”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(642): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\keys.cpp(645): warning C4244: “=”: 从“short”转换到“unsigned char”，可能丢失数据
+         ImageData.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(104): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(106): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(112): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(117): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(123): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(174): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(177): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(234): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(237): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(238): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(269): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(270): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(272): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(275): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(284): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(290): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(296): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(303): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(344): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(360): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(367): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(402): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(419): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(426): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(481): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(521): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(525): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(528): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(570): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(574): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(577): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(632): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(636): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(639): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(740): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(757): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(759): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(762): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(776): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(783): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(788): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(789): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(841): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(846): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(847): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(859): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(864): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(865): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(911): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(916): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(917): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(960): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(976): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(986): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1040): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1042): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1050): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1060): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1220): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1221): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1243): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1244): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1257): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1261): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1264): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1923): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1928): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1935): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1937): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1939): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1941): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1943): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1966): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1971): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1982): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(1987): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2010): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2015): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2048): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2055): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2122): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2127): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2156): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2161): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2174): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2184): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2188): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2197): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2202): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2209): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2335): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2443): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\imagedata.cpp(2466): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+         Geometry.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(120): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(124): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(445): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(448): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(451): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(452): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(455): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(457): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(460): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(463): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(468): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(471): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(680): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(692): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(696): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\geometry.cpp(700): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+         Epipolar.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\epipolar.cpp(53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\epipolar.cpp(54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\epipolar.cpp(60): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\epipolar.cpp(61): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         Distortion.cpp
+         Decompose.cpp
+         ComputeTracks.cpp
+         Camera.cpp
+         BundleTwo.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundletwo.cpp(404): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundletwo.cpp(486): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundletwo.cpp(487): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundletwo.cpp(526): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundletwo.cpp(563): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned long”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundletwo.cpp(564): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned long”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundletwo.cpp(2199): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         BundlerGeometry.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlergeometry.cpp(63): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlergeometry.cpp(71): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlergeometry.cpp(74): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlergeometry.cpp(75): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlergeometry.cpp(362): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlergeometry.cpp(701): warning C4244: “=”: 从“float”转换到“ann_1_1_char::ANNcoord”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlergeometry.cpp(783): warning C4244: “=”: 从“float”转换到“ann_1_1_char::ANNcoord”，可能丢失数据
+         BundlerApp.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(80): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(373): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(378): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(405): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(408): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(454): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(459): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(467): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(471): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(475): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(532): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(536): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(635): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(639): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(642): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(645): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(648): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(652): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(684): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(700): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(711): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(733): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(757): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(759): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(790): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\conio.h(131) : 参见“getch”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(873): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlerapp.cpp(1095): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         BundleIO.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(66): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(69): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(73): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(89): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(126): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(138): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(147): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(154): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(183): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(185): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(195): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(198): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(204): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(257): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(277): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(324): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(325): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(329): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(337): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(444): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(456): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(461): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(464): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(468): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(471): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(492): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(497): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(499): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(504): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(506): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(549): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(556): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(559): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(567): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(592): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(771): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(773): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(917): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(948): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(980): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1016): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1017): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1019): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1020): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1029): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1040): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1052): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1083): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1084): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1086): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1087): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1163): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1165): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1243): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1253): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1284): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1303): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1345): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1349): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1358): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1361): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundleio.cpp(1399): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         BundleFast.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlefast.cpp(220): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlefast.cpp(414): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundlefast.cpp(422): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         正在生成代码...
+         正在编译...
+         BundleAdd.cpp
+         Bundle.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle.cpp(1903): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle.cpp(1979): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle.cpp(2223): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle.cpp(2360): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle.cpp(2366): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\bundle.cpp(3540): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(245) : 参见“strdup”的声明
+         BruteForceSearch.cpp
+         BoundingBox.cpp
+         BaseGeometry.cpp
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\basegeometry.cpp(36): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\basegeometry.cpp(75): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\basegeometry.cpp(104): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\basegeometry.cpp(108): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\basegeometry.cpp(138): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\basegeometry.cpp(142): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\basegeometry.cpp(157): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\basegeometry.cpp(162): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\basegeometry.cpp(177): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\basegeometry.cpp(276): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\basegeometry.cpp(368): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\basegeometry.cpp(398): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\basegeometry.cpp(1006): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\src\basegeometry.cpp(1018): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         BaseApp.cpp
+         正在生成代码...
+       Link:
+         C:\Users\24400\Desktop\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\Bundler.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\lib\zlib\lib /LIBPATH:..\lib\jpeg\lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\Bundler.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\Bundler.lib" /MACHINE:X86 /SAFESEH Debug\BaseApp.obj
+         Debug\BaseGeometry.obj
+         Debug\BoundingBox.obj
+         Debug\BruteForceSearch.obj
+         Debug\Bundle.obj
+         Debug\BundleAdd.obj
+         Debug\BundleFast.obj
+         Debug\BundleIO.obj
+         Debug\BundlerApp.obj
+         Debug\BundlerGeometry.obj
+         Debug\BundleTwo.obj
+         Debug\Camera.obj
+         Debug\ComputeTracks.obj
+         Debug\Decompose.obj
+         Debug\Distortion.obj
+         Debug\Epipolar.obj
+         Debug\Geometry.obj
+         Debug\ImageData.obj
+         Debug\keys.obj
+         Debug\LoadJPEG.obj
+         Debug\MatchTracks.obj
+         Debug\ProcessBundle.obj
+         Debug\Register.obj
+         Debug\RelativePose.obj
+         Debug\SifterUtil.obj
+         Debug\TwoFrameModel.obj
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\5point.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\cblas.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\clapack.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\cminpack.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\f2c.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\getopt.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\imagelib.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\matrix.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\sba-1.5.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\sfm-driver.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\ann_1.1_char.lib"
+         "D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\jpeg.lib"
+     1>BaseApp.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         Bundler.vcxproj -> D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\Bundler.exe
+     1>已完成生成项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Bundler.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:16.90

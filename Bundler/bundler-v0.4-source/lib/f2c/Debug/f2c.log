@@ -1,0 +1,417 @@
+﻿生成启动时间为 2018/11/6 16:45:40。
+     1>项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\lib\f2c\f2c.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Users\24400\Desktop\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt abort_.c arithchk.c backspac.c cabs.c close.c ctype.c d_abs.c d_acos.c d_asin.c d_atan.c d_atn2.c d_cnjg.c d_cos.c d_cosh.c d_dim.c d_exp.c d_imag.c d_int.c d_lg10.c d_log.c d_mod.c d_nint.c d_prod.c d_sign.c d_sin.c d_sinh.c d_sqrt.c d_tan.c d_tanh.c derf_.c derfc_.c dfe.c dolio.c dtime_.c due.c ef1asc_.c ef1cmc_.c endfile.c erf_.c erfc_.c err.c etime_.c exit_.c f77_aloc.c f77vers.c fmt.c fmtlib.c ftell_.c getarg_.c getenv_.c h_abs.c h_dim.c h_dnnt.c h_indx.c h_len.c h_mod.c h_nint.c h_sign.c hl_ge.c hl_gt.c hl_le.c hl_lt.c i77vers.c i_abs.c i_dim.c i_dnnt.c i_indx.c i_len.c i_mod.c i_nint.c i_sign.c iargc_.c iio.c ilnw.c inquire.c l_ge.c l_gt.c l_le.c l_lt.c lbitbits.c lbitshft.c lread.c lwrite.c main.c open.c pow_ci.c pow_dd.c pow_di.c pow_hh.c pow_ii.c pow_ri.c pow_zi.c pow_zz.c r_abs.c r_acos.c r_asin.c r_atan.c r_atn2.c r_cnjg.c r_cos.c r_cosh.c r_dim.c r_exp.c r_imag.c r_int.c r_lg10.c r_log.c r_mod.c r_nint.c r_sign.c r_sin.c r_sinh.c r_sqrt.c r_tan.c r_tanh.c rdfmt.c rewind.c rsfe.c rsli.c rsne.c s_cat.c s_cmp.c s_copy.c s_paus.c s_rnge.c s_stop.c sfe.c sig_die.c signal_.c signbit.c sue.c system_.c typesize.c uio.c uninit.c util.c wref.c wrtfmt.c wsfe.c wsle.c wsne.c xwsne.c z_abs.c z_cos.c z_div.c z_exp.c z_log.c z_sin.c z_sqrt.c
+         z_sqrt.c
+         z_sin.c
+         z_log.c
+         z_exp.c
+         z_div.c
+         z_cos.c
+         z_abs.c
+         xwsne.c
+         wsne.c
+         wsle.c
+         wsfe.c
+         wrtfmt.c
+         wref.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\wref.c(90): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\wref.c(117): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\wref.c(119): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\wref.c(246): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         util.c
+         uninit.c
+         uio.c
+         typesize.c
+         system_.c
+         sue.c
+         signbit.c
+         正在生成代码...
+         正在编译...
+         signal_.c
+         sig_die.c
+         sfe.c
+         s_stop.c
+         s_rnge.c
+         s_paus.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\s_paus.c(65): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(718) : 参见“fileno”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\s_paus.c(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         s_copy.c
+         s_cmp.c
+         s_cat.c
+         rsne.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\rsne.c(71): warning C4273: “ungetc”: dll 链接不一致
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(324) : 参见“ungetc”的前一个定义
+         rsli.c
+         rsfe.c
+         rewind.c
+         rdfmt.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\rdfmt.c(71): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\rdfmt.c(93): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\rdfmt.c(382): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\rdfmt.c(389): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         r_tanh.c
+         r_tan.c
+         r_sqrt.c
+         r_sinh.c
+         r_sin.c
+         r_sign.c
+         正在生成代码...
+         正在编译...
+         r_nint.c
+         r_mod.c
+         r_log.c
+         r_lg10.c
+         r_int.c
+         r_imag.c
+         r_exp.c
+         r_dim.c
+         r_cosh.c
+         r_cos.c
+         r_cnjg.c
+         r_atn2.c
+         r_atan.c
+         r_asin.c
+         r_acos.c
+         r_abs.c
+         pow_zz.c
+         pow_zi.c
+         pow_ri.c
+         pow_ii.c
+         正在生成代码...
+         正在编译...
+         pow_hh.c
+         pow_di.c
+         pow_dd.c
+         pow_ci.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\pow_ci.c(21): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\pow_ci.c(22): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         open.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\open.c(192): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\open.c(207): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _access. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\io.h(323) : 参见“access”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\open.c(219): warning C4996: 'tmpfile': This function or variable may be unsafe. Consider using tmpfile_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(317) : 参见“tmpfile”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\open.c(237): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _access. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\io.h(323) : 参见“access”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\open.c(246): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\open.c(252): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\open.c(255): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\open.c(256): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\open.c(258): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\open.c(287): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         main.c
+         lwrite.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\lwrite.c(137): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         lread.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\lread.c(79): warning C4273: “ungetc”: dll 链接不一致
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(324) : 参见“ungetc”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\lread.c(220): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\lread.c(751): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\lread.c(758): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\lread.c(759): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         lbitshft.c
+         lbitbits.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\lbitbits.c(47): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\lbitbits.c(51): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\lbitbits.c(60): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\lbitbits.c(64): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+         l_lt.c
+         l_le.c
+         l_gt.c
+         l_ge.c
+         inquire.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\inquire.c(35): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _access. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\io.h(323) : 参见“access”的声明
+         ilnw.c
+         iio.c
+         iargc_.c
+         i_sign.c
+         i_nint.c
+         正在生成代码...
+         正在编译...
+         i_mod.c
+         i_len.c
+         i_indx.c
+         i_dnnt.c
+         i_dim.c
+         i_abs.c
+         i77vers.c
+         hl_lt.c
+         hl_le.c
+         hl_gt.c
+         hl_ge.c
+         h_sign.c
+         h_nint.c
+         h_mod.c
+         h_len.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\h_len.c(12): warning C4244: “return”: 从“ftnlen”转换到“shortint”，可能丢失数据
+         h_indx.c
+         h_dnnt.c
+         h_dim.c
+         h_abs.c
+         getenv_.c
+     1>c:\users\24400\desktop\vs2013\vc\include\stdlib.h(921): warning C4005: “max”: 宏重定义
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\f2c.h(160) : 参见“max”的前一个定义
+     1>c:\users\24400\desktop\vs2013\vc\include\stdlib.h(922): warning C4005: “min”: 宏重定义
+                 d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\f2c.h(159) : 参见“min”的前一个定义
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\getenv_.c(42): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdlib.h(462) : 参见“getenv”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\getenv_.c(48): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\getenv_.c(50): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdlib.h(462) : 参见“getenv”的声明
+         正在生成代码...
+         正在编译...
+         getarg_.c
+         ftell_.c
+         fmtlib.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\fmtlib.c(42): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+         fmt.c
+         f77vers.c
+         f77_aloc.c
+         exit_.c
+         etime_.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\etime_.c(46): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         err.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\err.c(221): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(226) : 参见“freopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\err.c(223): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(226) : 参见“freopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\err.c(257): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(226) : 参见“freopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\err.c(264): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(226) : 参见“freopen”的声明
+         erfc_.c
+         erf_.c
+         endfile.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\endfile.c(45): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\endfile.c(46): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\endfile.c(104): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\endfile.c(111): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\endfile.c(111): warning C4996: 'tmpfile': This function or variable may be unsafe. Consider using tmpfile_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(317) : 参见“tmpfile”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\endfile.c(123): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(226) : 参见“freopen”的声明
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\endfile.c(133): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\24400\desktop\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         ef1cmc_.c
+         ef1asc_.c
+         due.c
+         dtime_.c
+     1>d:\study\3drebuild\projects\bundler\bundler-v0.4-source\lib\f2c\dtime_.c(47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         dolio.c
+         dfe.c
+         derfc_.c
+         derf_.c
+         正在生成代码...
+         正在编译...
+         d_tanh.c
+         d_tan.c
+         d_sqrt.c
+         d_sinh.c
+         d_sin.c
+         d_sign.c
+         d_prod.c
+         d_nint.c
+         d_mod.c
+         d_log.c
+         d_lg10.c
+         d_int.c
+         d_imag.c
+         d_exp.c
+         d_dim.c
+         d_cosh.c
+         d_cos.c
+         d_cnjg.c
+         d_atn2.c
+         d_atan.c
+         正在生成代码...
+         正在编译...
+         d_asin.c
+         d_acos.c
+         d_abs.c
+         ctype.c
+         close.c
+         cabs.c
+         backspac.c
+         arithchk.c
+         abort_.c
+         正在生成代码...
+       Lib:
+         C:\Users\24400\Desktop\VS2013\VC\bin\Lib.exe /OUT:"D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\f2c.lib" /NOLOGO Debug\abort_.obj
+         Debug\arithchk.obj
+         Debug\backspac.obj
+         Debug\cabs.obj
+         Debug\close.obj
+         Debug\ctype.obj
+         Debug\d_abs.obj
+         Debug\d_acos.obj
+         Debug\d_asin.obj
+         Debug\d_atan.obj
+         Debug\d_atn2.obj
+         Debug\d_cnjg.obj
+         Debug\d_cos.obj
+         Debug\d_cosh.obj
+         Debug\d_dim.obj
+         Debug\d_exp.obj
+         Debug\d_imag.obj
+         Debug\d_int.obj
+         Debug\d_lg10.obj
+         Debug\d_log.obj
+         Debug\d_mod.obj
+         Debug\d_nint.obj
+         Debug\d_prod.obj
+         Debug\d_sign.obj
+         Debug\d_sin.obj
+         Debug\d_sinh.obj
+         Debug\d_sqrt.obj
+         Debug\d_tan.obj
+         Debug\d_tanh.obj
+         Debug\derf_.obj
+         Debug\derfc_.obj
+         Debug\dfe.obj
+         Debug\dolio.obj
+         Debug\dtime_.obj
+         Debug\due.obj
+         Debug\ef1asc_.obj
+         Debug\ef1cmc_.obj
+         Debug\endfile.obj
+         Debug\erf_.obj
+         Debug\erfc_.obj
+         Debug\err.obj
+         Debug\etime_.obj
+         Debug\exit_.obj
+         Debug\f77_aloc.obj
+         Debug\f77vers.obj
+         Debug\fmt.obj
+         Debug\fmtlib.obj
+         Debug\ftell_.obj
+         Debug\getarg_.obj
+         Debug\getenv_.obj
+         Debug\h_abs.obj
+         Debug\h_dim.obj
+         Debug\h_dnnt.obj
+         Debug\h_indx.obj
+         Debug\h_len.obj
+         Debug\h_mod.obj
+         Debug\h_nint.obj
+         Debug\h_sign.obj
+         Debug\hl_ge.obj
+         Debug\hl_gt.obj
+         Debug\hl_le.obj
+         Debug\hl_lt.obj
+         Debug\i77vers.obj
+         Debug\i_abs.obj
+         Debug\i_dim.obj
+         Debug\i_dnnt.obj
+         Debug\i_indx.obj
+         Debug\i_len.obj
+         Debug\i_mod.obj
+         Debug\i_nint.obj
+         Debug\i_sign.obj
+         Debug\iargc_.obj
+         Debug\iio.obj
+         Debug\ilnw.obj
+         Debug\inquire.obj
+         Debug\l_ge.obj
+         Debug\l_gt.obj
+         Debug\l_le.obj
+         Debug\l_lt.obj
+         Debug\lbitbits.obj
+         Debug\lbitshft.obj
+         Debug\lread.obj
+         Debug\lwrite.obj
+         Debug\main.obj
+         Debug\open.obj
+         Debug\pow_ci.obj
+         Debug\pow_dd.obj
+         Debug\pow_di.obj
+         Debug\pow_hh.obj
+         Debug\pow_ii.obj
+         Debug\pow_ri.obj
+         Debug\pow_zi.obj
+         Debug\pow_zz.obj
+         Debug\r_abs.obj
+         Debug\r_acos.obj
+         Debug\r_asin.obj
+         Debug\r_atan.obj
+         Debug\r_atn2.obj
+         Debug\r_cnjg.obj
+         Debug\r_cos.obj
+         Debug\r_cosh.obj
+         Debug\r_dim.obj
+         Debug\r_exp.obj
+         Debug\r_imag.obj
+         Debug\r_int.obj
+         Debug\r_lg10.obj
+         Debug\r_log.obj
+         Debug\r_mod.obj
+         Debug\r_nint.obj
+         Debug\r_sign.obj
+         Debug\r_sin.obj
+         Debug\r_sinh.obj
+         Debug\r_sqrt.obj
+         Debug\r_tan.obj
+         Debug\r_tanh.obj
+         Debug\rdfmt.obj
+         Debug\rewind.obj
+         Debug\rsfe.obj
+         Debug\rsli.obj
+         Debug\rsne.obj
+         Debug\s_cat.obj
+         Debug\s_cmp.obj
+         Debug\s_copy.obj
+         Debug\s_paus.obj
+         Debug\s_rnge.obj
+         Debug\s_stop.obj
+         Debug\sfe.obj
+         Debug\sig_die.obj
+         Debug\signal_.obj
+         Debug\signbit.obj
+         Debug\sue.obj
+         Debug\system_.obj
+         Debug\typesize.obj
+         Debug\uio.obj
+         Debug\uninit.obj
+         Debug\util.obj
+         Debug\wref.obj
+         Debug\wrtfmt.obj
+         Debug\wsfe.obj
+         Debug\wsle.obj
+         Debug\wsne.obj
+         Debug\xwsne.obj
+         Debug\z_abs.obj
+         Debug\z_cos.obj
+         Debug\z_div.obj
+         Debug\z_exp.obj
+         Debug\z_log.obj
+         Debug\z_sin.obj
+         Debug\z_sqrt.obj
+     1>arithchk.obj : warning LNK4006: _main 已在 main.obj 中定义；已忽略第二个定义
+         f2c.vcxproj -> D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\vc++\Debug\f2c.lib
+     1>已完成生成项目“D:\study\3DReBuild\Projects\Bundler\bundler-v0.4-source\lib\f2c\f2c.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.12
